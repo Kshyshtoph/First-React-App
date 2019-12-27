@@ -1,0 +1,32 @@
+ul.navigation {
+  list-style: none;
+  padding: 0 30px 0 30px;
+}
+.navigation li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  transition: 0.3s;
+}
+.navigation li a:hover {
+  border-left: 3px solid yellowgreen;
+  transform: translateX(10px);
+}
+.navigation li a.active {
+  color: green;
+  transform: translateX(0);
+}
+li:nth-child(1) a.active {
+  border-left-color: green;
+}
+li:nth-child(2) a.active {
+  border-left-color: yellow;
+}
+li:nth-child(3) a.active {
+  border-left-color: blue;
+}
+li:nth-child(4) a.active {
+  border-left-color: red;
+}

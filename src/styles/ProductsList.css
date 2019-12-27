@@ -1,0 +1,19 @@
+ul.products {
+  margin: 0;
+  padding: 0;
+}
+ul.products li {
+  list-style: square;
+  margin: 0;
+  padding: 0;
+  font-weight: initial;
+}
+ul.products li a {
+  margin: 0;
+  padding: 0;
+}
+ul.products li:hover {
+  border: none;
+  transform: translate(0, 0);
+  text-decoration: underline;
+}
